@@ -15,21 +15,7 @@ for (let index = 0; index < heart_btn.length; index++) {
     })
 
 }
-// for (let index = 0; index < input.length; index++) {
-
-// envoyer.addEventListener("click",function(){
-//     if(input1.value<1)
-//     msg.value="saisir un nom valide svp "
-// else if(input2.value<10)
-//     msg.value="saisir un mail valide svp"
-// else if(input3.value<1)
-//     msg.value="ecrire votre message svp"
-// else 
-//     msg.value="nous avons bien recus votre message"
-
-//    })
-    
-// }
+// remplissage de formulaire 
 envoi.addEventListener("click",function(){
     i=0
     for (let index = 0; index < input.length; index++) {
